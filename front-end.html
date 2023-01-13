@@ -7,56 +7,179 @@
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Gowun Dodum', sans-serif;
     }
-    img {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
   </style>
 </head>
 <body>
 
-  <h1>프론트엔드 (Front-End)</h1>
+  <div class="h-60 flex justify-center items-center bg-gradient-to-r from-cyan-500 to-blue-500">
+    <h1 class="text-4xl font-bold text-white">프론트엔드 (Front-End)</h1>
+  </div>
 
-  <hr>
+  <div class="py-8">
+    <div class="px-4 max-w-4xl mx-auto">
+      <h1 class="text-4xl mb-4 font-bold">목 차</h1>
+    
+      <ul>
+        <li class="mb-2 text-2xl">강사 소개</li>
+        <li class="mb-2 text-2xl">프론트 엔드란?</li>
+        <li class="mb-2 text-2xl">커리큘럼</li>
+        <li class="mb-2 text-2xl">참고</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="py-8 bg-gray-100">
+    <div class="px-4 max-w-4xl mx-auto">
+      <h1 class="text-4xl mb-4 font-bold">강사 소개</h1>
+
+      <div class="py-4 flex">
+        <img src="./img/me.jpg" alt="" class="w-28 h-28 rounded-full">
+        <div class="ml-4">
+          <h3 class="text-xl font-bold mb-2">진태민, Developer</h3>
+          <p>
+            HTML/CSS/JavaScript, TypeScript, React
+            <br>
+            PHP, NodeJS
+            <br>
+            SQL
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-8">
+    <div class="px-4 max-w-4xl mx-auto">
+      <h1 class="text-4xl font-bold mb-4">프론트엔드란?</h1>
+    
+      <div class="py-4">
+        <h2 class="text-2xl mb-2">웹개발</h2>
+        <p>
+          인터넷 또는 인트라넷용 웹사이트를 만드는 것 또는 웹사이트를 만드는 것과 관련된 분야
+        </p>
+      </div>
+    
+      <div class="py-4">
+        <h2 class="text-2xl mb-2">서버와 클라이언트</h2>
+        <img src="./img/server-client.png" alt="">
+      
+        <h3 class="text-xl mb-2">서버</h3>
+        <p class="mb-2">리소스 또는 서비스의 제공자</p>
+
+        <h3 class="text-xl mb-2">클라이언트</h3>
+        <p>리소스 또는 서비스를 요청하는 사람(컴퓨터)</p>
+      </div>
+      
+    
+    
+      <div class="py-4">
+        <h2 class="text-2xl mb-2">프론트엔드와 백엔드</h2>
+        <img src="https://flyaps.com/blog/content/images/2020/05/Frame-37-1.png" alt="" class="mb-4">
+        
+        <h3 class="text-xl mb-2">프론트 엔드</h3>
+        <p class="mb-2">애플리케이션의 보여지는 부분 (presentation layer)</p>
+        <h3 class="text-xl mb-2">백 엔드</h3>
+        <p>애플리케이션의 데이터 처리 부분(data access)</p>
+      </div>
+    
+    
+      <div class="py-4">
+        <h2 class="text-2xl mb-2">프론트엔드 개발언어</h2>
+        <img src="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png" alt="">
+      
+        <h3 class="text-xl mb-2">
+          HTML (Hyper Text Markup Language)
+        </h3>
+        <p class="mb-2">
+          웹페이지의 데이터를 표시한다
+        </p>
+        <h3 class="text-xl mb-2">
+          CSS (Cascading Style Sheet)
+        </h3>
+        <p class="mb-2">
+          웹페이지의 디자인을 처리한다
+        </p>
+        <h3 class="text-xl mb-2">
+          JavaScript
+        </h3>
+        <p class="mb-2">
+          HTML과 CSS를 조작하여 동적인 페이지를 구현하는데 사용된다
+        </p>
+      </div>
+      
+      <div class="py-4">
+        <h2 class="text-2xl mb-2">백엔드 개발언어</h2>
+
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj-uW73vDqVAccT47iZelHWRQ3sAO7j1BjHhnrIvfbmOSVpgSlDXh9IiJaiDnwmKTowGy6Wt_hfkIG8MIyD770HAWnS-PR8u6_AhbQrdIGZB8VxE-INCFNvndO3m2N7C8GYvv-ucmYQs3t-W-imELVBw6eltYKSNEI69v1PgR3JlQ8NpR075W2Hjh3BzQ=s600-rw" alt="" class="mb-4">
+        <h3 class="text-xl mb-2">PHP</h3>
+        <p class="mb-2">
+          세계적으로 가장 많이 사용되는 서버 구축용 언어 <br>
+          예) 워드프레스, 페이스북 등
+        </p>
+        <h3 class="text-xl mb-2">Java</h3>
+        <p class="mb-2">한국에서 가장 많이 사용되는 언어. 전자정부프레임워크에서 사용된다</p>
+        <h3 class="text-xl mb-2">Python</h3>
+        <p class="mb-2">서버구축, 빅데이터, 머신러닝 등 다양한 분야에서 사용되는 언어</p>
+        <h3 class="text-xl mb-2">NodeJS</h3>
+        <p class="mb-2">JavaScript를 사용하여 서버를 구축할 수 있게 만든 언어</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="py-8 bg-gray-100">
+    <div class="px-4 max-w-4xl mx-auto">
+      <h1 class="text-4xl font-bold mb-4">커리큘럼</h1>
+      <h2 class="text-2xl mb-2">프론트엔드 1</h2>
+      <p class="mb-2">
+        HTML/CSS
+      </p>
+      <h2 class="text-2xl mb-2">프론트엔드 2</h2>
+      <p class="mb-2">
+        HTML/CSS
+      </p>
+      <h2 class="text-2xl mb-2">프론트엔드 3</h2>
+      <p class="mb-2">
+        JavaScript
+      </p>
+      <h2 class="text-2xl mb-2">프론트엔드 4</h2>
+      <p class="mb-2">
+        React (프론트엔드 개발용 JavaScript 라이브러리)
+      </p>
+      <h2 class="text-2xl mb-2">프론트엔드 5</h2>
+      <p class="mb-2">
+        소셜서비스 애플리케이션 백엔드 개발
+      </p>
+      <h2 class="text-2xl mb-2">프론트엔드 6</h2>
+      <p class="mb-2">
+        소셜서비스 애플리케이션 프론트엔드 개발
+      </p>
+    </div>
+  </div>
+
+
+  <div class="py-8">
+    <div class="px-4 max-w-4xl mx-auto">
+      <h1 class="text-4xl font-bold mb-4">참고</h1>
+    
+      <p>
+        수업자료 - 
+          <a href="https://github.com/nigrojin/koreaIT" class="underline">
+            https://github.com/nigrojin
+          </a>
+          <br>
+        추천사이트 - W3Schools, Google신 (aka. God), stackoverflow <br>
+      </p>
+    </div>
+  </div>
   
-  <h1>목차</h1>
-
-  <ul>
-    <li>강사소개</li>
-    <li>프론트 엔드란 무엇입니까?</li>
-    <li>사용 도구</li>
-    <li>커리큘럼</li>
-    <li>참고</li>
-  </ul>
-
-  <h1>강사소개</h1>
-
-  <img src="./img/me.jpg" alt="">
-  <p>
-    안녕하세요, dolor sit amet consectetur adipisicing elit. Consequuntur accusamus veniam laborum quo quas cumque
-    asperiores cum magni minus, dolores fugit molestiae illum facere id, autem sapiente dicta vitae vero.
-  </p>
-
-  <h1>프론트엔드</h1>
-
-  <h1>사용 도구</h1>
-
-  <ul>
-    <li>Chrome</li>
-    <li>VSCode</li>
-  </ul>
-  
-
-  <h1>커리큘럼</h1>
-
-  <h1>참고</h1>
 
 </body>
 </html>
